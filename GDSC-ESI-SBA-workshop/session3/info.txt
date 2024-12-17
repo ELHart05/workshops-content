@@ -1,0 +1,2 @@
+this is the source code of the project we did: https://github.com/ELHart05/Mimic-Portfolio
+this is the demo of the project we did: https://mimicportfolio.netlify.app/

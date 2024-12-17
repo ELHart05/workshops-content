@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Css Flexbox</title>
+    </head>
+
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        .container {
+            background:yellow;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .container > div {
+            border:1px solid black;
+            padding:20px 15px;
+            width:30%;
+        }
+
+        .box1 {
+            background:red;
+        }
+        .box2 {
+            background:green;
+        }
+        .box3 {
+            background:blue;
+        }
+    </style>
+
+    <body>
+        <div class="container"> 
+            <div class="box1">
+                <h2>Box1</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="box2">
+                <h2>Box2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officia dicta provident exercitationem laudantium eius.</p>
+            </div>
+            <div class="box3">
+                <h3>Box3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nobis sit nihil eum! Repellendus explicabo, eaque eius debitis omnis similique ipsa quia laudantium consequuntur, sapiente minima error, obcaecati a? Quas excepturi, omnis repudiandae exercitationem totam cum facilis consectetur amet quibusdam maxime minima aspernatur enim dignissimos illum ducimus quis sit pariatur aut natus magnam, unde repellat voluptatum molestiae temporibus. Illo, adipisci.</p>
+            </div>
+            <div class="box3">
+                <h3>Box4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nobis sit nihil eum! Repellendus explicabo, eaque eius debitis omnis similique ipsa quia laudantium consequuntur, sapiente minima error, obcaecati a? Quas excepturi, omnis repudiandae exercitationem totam cum facilis consectetur amet quibusdam maxime minima aspernatur enim dignissimos illum ducimus quis sit pariatur aut natus magnam, unde repellat voluptatum molestiae temporibus. Illo, adipisci.</p>
+            </div>
+            
+        </div>
+    </body>
+</html>

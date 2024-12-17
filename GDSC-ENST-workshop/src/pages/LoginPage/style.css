@@ -1,0 +1,36 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 300px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-field input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.form-field button {
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: green;
+    border-radius: 3px;
+    border: 0px;
+    color: white;
+    cursor: pointer; 
+}
+
+.form-field button:hover{
+    background-color: rgb(1, 97, 1);
+}

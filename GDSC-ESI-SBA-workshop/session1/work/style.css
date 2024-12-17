@@ -1,0 +1,69 @@
+/* 
+========================CSS SYNTAX: =====================
+******************************************
+1/If we wanna access to an html element by its *class name*:
+.className {
+  prop:value;
+}
+******************************************
+2/If we wanna access to an html element by its *id*:
+#idName {
+  prop:value;
+}
+******************************************
+3/If we wanna access to html element globally: 
+htmlElement {
+  prop:value;
+}
+example:
+h3 {
+  color:red; // that means all h3 elements will have the color red!
+}
+******************************************
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* * is a global selector that selects all html elements */
+.container {
+  width: 750px;
+  background: #003b28;
+  margin: 150px auto;
+  height: 250px;
+  padding: 20px 10px;
+  /* margin: gives spaces outside
+     padding: gives spaces inside
+     *******syntax*******
+     margin: 20px; = give 20px space outside the element in all directions
+     margin: 20px 10px; = give 20px space in top and bottom, 10px in right and left
+     margin:20px 10px 5px 2px; = 20px top, 10px right, 5px bottom, 2px left;
+     *********same thing with padding***********************
+  */
+}
+.container-left {
+  width: 30%;
+  float: left;
+  padding: 20px 0;
+}
+.image {
+  border-radius: 100%;
+}
+.container-right {
+  width: 70%;
+  float: right;
+  font-family: tahoma;
+}
+.title1 {
+  color: white;
+  margin-bottom: 25px;
+}
+.title {
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.container-right p {
+  color: white;
+}
