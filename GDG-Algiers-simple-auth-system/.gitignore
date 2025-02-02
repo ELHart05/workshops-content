@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# MongoDB
+dump/
+*.seed
+
+# Build files
+build/
+dist/
+
+# Dependency directories
+jspm_packages/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
