@@ -1,0 +1,37 @@
+body {
+    background-image: url('../images/troops.jpg');
+    background-attachment: fixed;
+    height: calc(100vh - 48px);
+}
+
+.wip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.wip-container h1 {
+    font-size: 2rem;
+    color: #3b4cca;
+    margin-bottom: 20px;
+}
+
+.wip-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.back-link {
+    display: inline-block;
+    color: #3b4cca;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

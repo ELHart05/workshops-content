@@ -1,0 +1,31 @@
+%user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+%btn {
+    text-align: center;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #303030;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: grey;
+    }
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'CRFont', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url('../images/arena.jpg');
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3b4cca;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid Layout */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Card Styling */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+    padding: 15px;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    color: #3b4cca;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.rarity {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+/* Rarity Colors */
+.rarity.common {
+    background-color: #a9a9a9;
+}
+
+.rarity.rare {
+    background-color: #3471eb;
+}
+
+.rarity.epic {
+    background-color: #af3bff;
+}
+
+.rarity.legendary {
+    background-color: #ff8c00;
+}
+
+.no-cards-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+}
